@@ -43,9 +43,7 @@ function totalCost() {
 
 document.getElementById('memory8Gb').addEventListener('click', function () {
 
-
     const memory8gbCost = displayCost('memoryCost', '0');
-
 
 })
 document.getElementById('memory16Gb').addEventListener('click', function () {
@@ -98,7 +96,7 @@ document.getElementById('apply-button').addEventListener('click', function () {
     const promoFeild = document.getElementById('promo-feild');
     const promoFeildValue = promoFeild.value;
 
-    if (promoFeildValue == 'stevekakku') {
+    if (promoFeildValue == 'stevekaku') {
         // Hinding the apply button 
 
         const testingValue = document.getElementById('final-cost');

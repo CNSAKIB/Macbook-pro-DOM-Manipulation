@@ -1,0 +1,31 @@
+/* Font Used  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Applying Basic Body Style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Button Styles  */
+
+.button-style{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.button-style:hover{
+
+    background-color: black;
+    color: white;
+
+}
+
+.promo-button {
+
+    background-color: tomato;
+    color: white;
+}
+.promo-button:hover {
+
+    background-color: red;
+    color: white;
+}
