@@ -38,8 +38,6 @@ function totalCost() {
 
     }
 
-    // new line
-    return subtotal;
 }
 
 // Handling Event Memory Cost 
