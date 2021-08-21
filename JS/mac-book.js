@@ -37,6 +37,9 @@ function totalCost() {
         element.innerText = subtotal;
 
     }
+
+    // new line
+    return subtotal;
 }
 
 // Handling Event Memory Cost 
@@ -97,13 +100,15 @@ document.getElementById('apply-button').addEventListener('click', function () {
     const promoFeildValue = promoFeild.value;
 
     if (promoFeildValue == 'stevekaku') {
-        // Hinding the apply button 
 
-        const testingValue = document.getElementById('final-cost');
-        const promoValue = parseInt(testingValue.innerText);
+        // Calculating Total Amount
+
+        const displayTotal = document.getElementById('final-cost');
+        const promoValue = parseInt(displayTotal.innerText);
         const applyPromo = promoValue * 0.2;
         const totalAmount = promoValue - applyPromo;
-        testingValue.innerText = totalAmount;
+        displayTotal.innerText = totalAmount;
+        // Hinding the apply button
         document.getElementById('apply-button').style.display = 'none';
     }
     promoFeild.value = '';
